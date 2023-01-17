@@ -45,6 +45,7 @@ import {
 } from '../../store/actions';
 import ConfirmSignatureRequest from '../confirm-signature-request';
 import ConfirmTokenTransactionSwitch from './confirm-token-transaction-switch';
+import ConfTx from './conf-tx';
 
 const ConfirmTransaction = () => {
   const dispatch = useDispatch();
