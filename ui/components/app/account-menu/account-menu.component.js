@@ -32,7 +32,11 @@ import {
 } from '../../../helpers/constants/routes';
 import TextField from '../../ui/text-field';
 import IconCheck from '../../ui/icon/icon-check';
+<<<<<<< HEAD
 import IconCog from '../../ui/icon/icon-cog';
+=======
+import IconConnect from '../../ui/icon/icon-connect';
+>>>>>>> ebcdb8f1e (UX: Update Settings Icon)
 import IconPlus from '../../ui/icon/icon-plus';
 import IconImport from '../../ui/icon/icon-import';
 
@@ -481,8 +485,9 @@ export default class AccountMenu extends Component {
             });
           }}
           icon={
-            <IconCog
-              color="var(--color-icon-alternative)"
+            <Icon
+              name={ICON_NAMES.SETTING}
+              color={Color.iconAlternative}
               ariaLabel={t('settings')}
             />
           }
