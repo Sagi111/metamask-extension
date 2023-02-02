@@ -259,7 +259,7 @@ class SettingsPage extends PureComponent {
         tabs={[
           {
             content: t('general'),
-            icon: <i className="fa fa-cog" />,
+            icon: <Icon name={ICON_NAMES.SETTING} />,
             key: GENERAL_ROUTE,
           },
           {

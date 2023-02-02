@@ -19,11 +19,6 @@ export default {
   args: {
     tabs: [
       {
-        icon: <i className="fa fa-cog" />,
-        content: 'General',
-        key: 'general',
-      },
-      {
         icon: <i className="fa fa-address-book" />,
         content: 'Contacts',
         key: 'contacts',
