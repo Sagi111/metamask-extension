@@ -8,6 +8,12 @@ import { getMostRecentOverviewPage } from '../../ducks/history/history';
 import { EVENT, EVENT_NAMES } from '../../../shared/constants/metametrics';
 
 import Button from '../../components/ui/button';
+import {
+  Icon,
+  ICON_NAMES,
+  ICON_SIZES,
+} from '../../components/component-library';
+import { Color } from '../../helpers/constants/design-system';
 
 const PASSWORD_PROMPT_SCREEN = 'PASSWORD_PROMPT_SCREEN';
 const REVEAL_SEED_SCREEN = 'REVEAL_SEED_SCREEN';
@@ -58,7 +64,11 @@ class RevealSeedPage extends Component {
   renderWarning() {
     return (
       <div className="page-container__warning-container">
-        <i className="fa fa-exclamation-triangle fa-2x page-container__warning-icon" />
+        <Icon
+          name={ICON_NAMES.DANGER}
+          size={ICON_SIZES.XL}
+          color={Color.errorDefault}
+        />
         <div className="page-container__warning-message">
           <div className="page-container__warning-title">
             {this.context.t('revealSeedWordsWarningTitle')}
