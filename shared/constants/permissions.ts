@@ -24,6 +24,7 @@ export const PermissionNamespaces = Object.freeze({
 
 export const EndowmentPermissions = Object.freeze({
   'endowment:network-access': 'endowment:network-access',
+  'endowment:webassembly': 'endowment:webassembly',
   'endowment:long-running': 'endowment:long-running',
   'endowment:transaction-insight': 'endowment:transaction-insight',
   'endowment:cronjob': 'endowment:cronjob',
