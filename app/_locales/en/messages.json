@@ -2688,10 +2688,6 @@
     "message": "Access the internet.",
     "description": "The description of the `endowment:network-access` permission."
   },
-  "permission_webAssembly": {
-    "message": "Access the WebAssembly API.",
-    "description": "The description of the `endowment:webassembly` permission."
-  },
   "permission_accessSnap": {
     "message": "Connect to the $1 Snap.",
     "description": "The description for the `wallet_snap_*` permission. $1 is the name of the Snap."
@@ -2767,6 +2763,10 @@
   "permission_viewNamedBip32PublicKeys": {
     "message": "View your public key for $1.",
     "description": "The description for the `snap_getBip32PublicKey` permission. $1 is a name for the derivation path, e.g., 'Ethereum accounts'."
+  },
+  "permission_webAssembly": {
+    "message": "Support for WebAssembly.",
+    "description": "The description of the `endowment:webassembly` permission."
   },
   "permissions": {
     "message": "Permissions"
