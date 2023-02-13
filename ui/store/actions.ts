@@ -4614,5 +4614,4 @@ export async function testDesktopConnection() {
 export async function disableDesktop() {
   return await submitRequestToBackground('disableDesktop');
 }
-
 ///: END:ONLY_INCLUDE_IN
