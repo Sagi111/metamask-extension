@@ -4603,6 +4603,10 @@ export function setDesktopEnabled(desktopEnabled: boolean) {
   };
 }
 
+export async function generateOtp() {
+  return await submitRequestToBackground('generateOtp');
+}
+
 export async function testDesktopConnection() {
   return await submitRequestToBackground('testDesktopConnection');
 }
