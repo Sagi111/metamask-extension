@@ -9,6 +9,15 @@ version="${CIRCLE_BRANCH/Version-v/}"
 current_commit_msg=$(git show -s --format='%s' HEAD)
 printf '%s\n' "Creating the prod beta build for $version under $current_commit_msg"
 
-yarn build --build-type beta prod
+if [[ $current_commit_msg =~ Version[-[:space:]](v[[:digit:]]+.[[:digit:]]+.[[:digit:]]+[-]beta.[[:digit:]]) ]]
+then
+    yarn build --build-type beta prod
+    printf '%s\n' "Creating the prod beta build for $version"
+
+else
+  # filter the commit message like Version v10.24.1-beta.1
+    printf '%s\n' 'Commit message does not match commit message for beta pattern; skipping beta automation build'
+    exit 0
+fi
 
 exit 0
