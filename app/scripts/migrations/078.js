@@ -3,8 +3,8 @@ import { cloneDeep } from 'lodash';
 const version = 78;
 
 /**
- * Prior to token detection v2 the data property in tokensChainsCache was an array,
- * in v2 we changes that to an object. In this migration we are converting the data as array to object.
+ * The portfolio tooltip has been moved to a button on the home screen so
+ * this property is no longer needed in state
  */
 export default {
   version,
