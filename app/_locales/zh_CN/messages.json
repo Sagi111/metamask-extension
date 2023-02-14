@@ -370,6 +370,10 @@
   "approveButtonText": {
     "message": "批准"
   },
+  "approveSpendingCap": {
+    "message": "批准 $1 支出上限",
+    "description": "The token symbol that is being approved"
+  },
   "approveTokenDescription": {
     "message": "这允许第三方访问和转移以下 NFT，而无需另行通知，直到您撤销其访问权限。"
   },
@@ -421,7 +425,7 @@
     "message": "自动检测代币"
   },
   "autoDetectTokensDescription": {
-    "message": "我们使用第三方API来检测和显示发送到您钱包的新代币。如果您不希望该应用程序从这些服务中提取数据，请将其关闭。$1",
+    "message": "我们使用第三方 API 来检测和显示发送到您钱包的新代币。如果您不希望该应用程序从这些服务中提取数据，请将其关闭。$1",
     "description": "$1 is a link to a support article"
   },
   "autoLockTimeLimit": {
@@ -632,6 +636,18 @@
   "chromeRequiredForHardwareWallets": {
     "message": "您需要在 Google Chrome 上使用 MetaMask 以连接到您的硬件钱包。"
   },
+  "clear": {
+    "message": "清除"
+  },
+  "clearActivity": {
+    "message": "清除活动和nonce数据"
+  },
+  "clearActivityButton": {
+    "message": "清除活动选项卡数据"
+  },
+  "clearActivityDescription": {
+    "message": "这将会重置账户的nonce，并删除钱包中的活动选项卡数据。只有当前账户和网络会受到影响。您的余额和传入的交易不会改变。"
+  },
   "clickToConnectLedgerViaWebHID": {
     "message": "点击这里以通过 WebHID 连接您的 Ledger",
     "description": "Text that can be clicked to open a browser popup for connecting the ledger device via webhid"
@@ -641,6 +657,9 @@
   },
   "close": {
     "message": "关闭"
+  },
+  "coingecko": {
+    "message": "CoinGecko"
   },
   "confirm": {
     "message": "确认"
@@ -838,8 +857,18 @@
   "createPassword": {
     "message": "创建密码"
   },
+  "cryptoCompare": {
+    "message": "CryptoCompare"
+  },
   "currencyConversion": {
     "message": "货币转换"
+  },
+  "currencyRateCheckToggle": {
+    "message": "显示余额和代币价格检查器"
+  },
+  "currencyRateCheckToggleDescription": {
+    "message": "我们使用$1和$2的API来显示您的余额和代币价格。$3",
+    "description": "$1 represents Coingecko, $2 represents CryptoCompare and $3 represents Privacy Policy"
   },
   "currencySymbol": {
     "message": "货币符号"
@@ -1735,6 +1764,12 @@
   "lastConnected": {
     "message": "最后连接"
   },
+  "lastPriceSold": {
+    "message": "最后售价"
+  },
+  "lastSold": {
+    "message": "最后售出"
+  },
   "learnCancelSpeeedup": {
     "message": "学习如何 $1",
     "description": "$1 is link to cancel or speed up transactions"
@@ -1943,6 +1978,9 @@
   "metametricsOptInDescription": {
     "message": "MetaMask 希望收集使用数据，以更好地了解我们的用户如何与扩展程序交互。这些数据将被用于持续改进我们产品和以太坊生态系统的可用性和用户体验。"
   },
+  "metrics": {
+    "message": "指标"
+  },
   "mismatchedChainLinkText": {
     "message": "验证网络信息",
     "description": "Serves as link text for the 'mismatchedChain' key. This text will be embedded inside the translation for that key."
@@ -1974,6 +2012,9 @@
   },
   "mobileSyncWarning": {
     "message": "“与扩展程序同步”功能暂时被禁用。如果您想要在 MetaMask 移动设备上使用您的扩展程序钱包，那么在您的移动应用程序上：返回钱包设置选项并选择“使用账户助记词导入”选项。使用您的扩展程序钱包的助记词来将您的钱包导入移动设备。"
+  },
+  "moreComingSoon": {
+    "message": "更多即将到来……"
   },
   "mustSelectOne": {
     "message": "至少选择1种代币。"
@@ -2143,6 +2184,9 @@
   "nftAddressError": {
     "message": "此代币是NFT。另加上$1",
     "description": "$1 is a clickable link with text defined by the 'importNFTPage' key"
+  },
+  "nftDisclaimer": {
+    "message": "免责声明：MetaMask从源网址中提取媒体文件。这个网址有时会因铸造NFT的市场而改变。"
   },
   "nftTokenIdPlaceholder": {
     "message": "输入代币ID"
@@ -2548,6 +2592,9 @@
   "openInBlockExplorer": {
     "message": "在区块浏览器上打开"
   },
+  "openSea": {
+    "message": "OpenSea（测试版）"
+  },
   "optional": {
     "message": "可选"
   },
@@ -2566,6 +2613,9 @@
   "otherSnaps": {
     "message": "其他 Snap",
     "description": "Used in the 'permission_rpc' message."
+  },
+  "outdatedBrowserNotification": {
+    "message": "您的浏览器已过期。如果不更新浏览器，您将无法获取MetaMask的安全补丁和新功能。"
   },
   "padlock": {
     "message": "挂锁"
@@ -2630,6 +2680,10 @@
   "permissionRevoked": {
     "message": "在此更新中已撤销"
   },
+  "permission_accessNamedSnap": {
+    "message": "连接至$1。",
+    "description": "The description for the `wallet_snap_*` permission. $1 is the human-readable name of the Snap."
+  },
   "permission_accessNetwork": {
     "message": "访问互联网。",
     "description": "The description of the `endowment:network-access` permission."
@@ -2674,6 +2728,10 @@
     "message": "控制您的“$1”账户和资产。",
     "description": "The description for the `snap_getBip44Entropy` permission. $1 is the name of a protocol, e.g. 'Filecoin'."
   },
+  "permission_manageNamedBip32Keys": {
+    "message": "控制您的$1账户和资产。",
+    "description": "The description for the `snap_getBip32Entropy` permission. $1 is a name for the derivation path, e.g., 'Ethereum accounts'. $2 is the plain derivation path, e.g. 'm/44'/0'/0''."
+  },
   "permission_manageState": {
     "message": "在您的设备上存储和管理其数据。",
     "description": "The description for the `snap_manageState` permission"
@@ -2701,6 +2759,10 @@
   "permission_viewBip32PublicKeys": {
     "message": "查看您的$1 ($2)公钥。",
     "description": "The description for the `snap_getBip32PublicKey` permission. $1 is a derivation path, e.g. 'm/44'/0'/0''. $2 is the elliptic curve name, e.g. 'secp256k1'."
+  },
+  "permission_viewNamedBip32PublicKeys": {
+    "message": "查看您的$1公钥。",
+    "description": "The description for the `snap_getBip32PublicKey` permission. $1 is a name for the derivation path, e.g., 'Ethereum accounts'."
   },
   "permissions": {
     "message": "权限"
@@ -2861,6 +2923,9 @@
   "removeNFT": {
     "message": "删除 NFT"
   },
+  "removeNftMessage": {
+    "message": "NFT已成功移除！"
+  },
   "removeSnap": {
     "message": "移除Snap"
   },
@@ -2938,11 +3003,11 @@
     "message": "检查您的支出上限"
   },
   "revokeAllTokensTitle": {
-    "message": "撤销访问您的所有$1的权限？",
+    "message": "撤销访问和转移您的所有 $1 的权限？",
     "description": "$1 is the symbol of the token for which the user is revoking approval"
   },
   "revokeApproveForAllDescription": {
-    "message": "通过撤销权限，以下$1将无法再访问您的$2",
+    "message": "这将撤销第三方访问和转移您的所有 $1 的权限，而无需另行通知。",
     "description": "$1 is either a string or link of a given token symbol or name"
   },
   "revokeSpendingCap": {
@@ -3074,6 +3139,9 @@
   },
   "selectPathHelp": {
     "message": "如果您没有看到您期望的账户，请尝试切换 HD 路径。"
+  },
+  "selectProvider": {
+    "message": "选择提供程序："
   },
   "selectType": {
     "message": "选择类型"
@@ -3323,6 +3391,9 @@
   },
   "spendLimitTooLarge": {
     "message": "消费限额过大"
+  },
+  "spendingCap": {
+    "message": "支出上限"
   },
   "spendingCapError": {
     "message": "错误：仅输入数字"
@@ -3633,7 +3704,7 @@
     "message": "MetaMask 费用"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "我们每次都能从顶级流动性资源中找到最优惠的价格。$1% 的费用会自动计入此报价。",
+    "message": "该报价中会自动计入一笔 $1% 的费用。您支付该费用以换取使用 MetaMask 流动性提供商信息聚合软件的许可证。",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
@@ -3898,6 +3969,9 @@
   "thingsToKeep": {
     "message": "注意事项:"
   },
+  "thisServiceIsExperimental": {
+    "message": "此服务是实验性的"
+  },
   "time": {
     "message": "时间"
   },
@@ -3911,6 +3985,12 @@
     "message": "至：$1",
     "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
   },
+  "toggleEthSignDescriptionField": {
+    "message": "启用此选项会允许dapps使用eth_sign请求您的签名。eth_sign是一种开放式签名方法，允许您对任意散列进行签名，因而使其成为危险的网络钓鱼风险。只有在您能够阅读所签内容并信任请求的来源时，才能对eth_sign请求进行签名。"
+  },
+  "toggleEthSignField": {
+    "message": "切换eth_sign请求"
+  },
   "toggleTestNetworks": {
     "message": "$1 测试网络",
     "description": "$1 is a clickable link with text defined by the 'showHide' key. The link will open Settings > Advanced where users can enable the display of test networks in the network dropdown."
@@ -3923,6 +4003,9 @@
   },
   "tokenAlreadyAdded": {
     "message": "代币已添加。"
+  },
+  "tokenAutoDetection": {
+    "message": "代币自动检测"
   },
   "tokenContractAddress": {
     "message": "代币合约地址"
@@ -4061,10 +4144,10 @@
     "message": "已在 $2 重新提交交易，燃料费预计升至 $1"
   },
   "transactionSecurityCheck": {
-    "message": "交易安全检查"
+    "message": "启用交易安全提供程序"
   },
   "transactionSecurityCheckDescription": {
-    "message": "启用此选项可使第三方 (OpenSea) 检查您的所有交易和签名请求，并警告您已知的恶意请求。"
+    "message": "我们使用第三方 API 来检测和显示未签名交易和签名请求中涉及的风险，然后您再进行签名。这些服务将访问您的未签名交易和签名请求、您的账户地址以及首选语言。"
   },
   "transactionSubmitted": {
     "message": "已在 $2 提交交易，燃料费预计为 $1。"
@@ -4209,6 +4292,9 @@
   },
   "useNftDetectionDescriptionLine4": {
     "message": "任何人都可以将NFT空投到您的账户。这可能包括或会自动显示在钱包中的冒犯性内容。"
+  },
+  "useNftDetectionDescriptionLine5": {
+    "message": "如果您不希望应用程序从这些服务中提取数据，请关闭此功能。"
   },
   "usePhishingDetection": {
     "message": "使用网络钓鱼检测"

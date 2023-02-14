@@ -370,6 +370,10 @@
   "approveButtonText": {
     "message": "승인"
   },
+  "approveSpendingCap": {
+    "message": "$1 지출 한도 승인",
+    "description": "The token symbol that is being approved"
+  },
   "approveTokenDescription": {
     "message": "이렇게 하면 사용자가 액세스를 취소할 때까지 제삼자가 가 통지 없이 다음과 같은 NFT에 액세스하고 이를 전송할 수 있습니다."
   },
@@ -421,7 +425,7 @@
     "message": "토큰 자동 감지"
   },
   "autoDetectTokensDescription": {
-    "message": "MetaMask는 지갑에 보내진 새로운 토큰을 감지해 표시하기 위해 타사 API를 사용합니다. 이 서비스로부터 데이터를 가져오기를 원치 않으시면 해당 기능을 끄세요.$1",
+    "message": "지갑에서 받은 새로운 토큰을 감지해 표시하기 위해 타사 API를 사용합니다. 이 서비스를 이용하여 데이터를 자동으로 가져오기 원치 않으시면 해당 기능을 끄세요.$1",
     "description": "$1 is a link to a support article"
   },
   "autoLockTimeLimit": {
@@ -632,6 +636,18 @@
   "chromeRequiredForHardwareWallets": {
     "message": "하드웨어 지갑에 연결하려면 Google Chrome에서 MetaMask를 사용해야 합니다."
   },
+  "clear": {
+    "message": "지우기"
+  },
+  "clearActivity": {
+    "message": "활동 및 논스 데이터 지우기"
+  },
+  "clearActivityButton": {
+    "message": "활동 탭 데이터 지우기"
+  },
+  "clearActivityDescription": {
+    "message": "이는 계정의 논스(Nonce)를 초기화하고 지갑의 활동 탭에 있는 데이터를 지웁니다. 이렇게 하면 현재 계정과 네트워크만 변경될 뿐 잔액과 입금 거래에는 영향을 미치지 않습니다."
+  },
   "clickToConnectLedgerViaWebHID": {
     "message": "WebHID를 통해 Ledger을 연결하려면 여기를 클릭하세요.",
     "description": "Text that can be clicked to open a browser popup for connecting the ledger device via webhid"
@@ -641,6 +657,9 @@
   },
   "close": {
     "message": "닫기"
+  },
+  "coingecko": {
+    "message": "CoinGecko"
   },
   "confirm": {
     "message": "확인"
@@ -838,8 +857,18 @@
   "createPassword": {
     "message": "비밀번호 생성"
   },
+  "cryptoCompare": {
+    "message": "CryptoCompare"
+  },
   "currencyConversion": {
     "message": "통화 변환"
+  },
+  "currencyRateCheckToggle": {
+    "message": "잔액 및 토큰 가격을 비교할 수 있습니다"
+  },
+  "currencyRateCheckToggleDescription": {
+    "message": "잔액과 토큰 가격 디스플레이를 위해 $1 및 $2 API를 이용합니다. $3",
+    "description": "$1 represents Coingecko, $2 represents CryptoCompare and $3 represents Privacy Policy"
   },
   "currencySymbol": {
     "message": "통화 기호"
@@ -1735,6 +1764,12 @@
   "lastConnected": {
     "message": "마지막으로 연결됨"
   },
+  "lastPriceSold": {
+    "message": "최근 판매 가격"
+  },
+  "lastSold": {
+    "message": "최근 판매"
+  },
   "learnCancelSpeeedup": {
     "message": "$1하는 방법 알아보기",
     "description": "$1 is link to cancel or speed up transactions"
@@ -1943,6 +1978,9 @@
   "metametricsOptInDescription": {
     "message": "MetaMask는 사용자가 확장 프로그램과 상호작용하는 방식을 자세히 이해하기 위해 사용 데이터를 수집하고자 합니다. 수집한 데이터는 당사의 제품과 이더리움 에코시스템의 사용 편의성 및 사용자 경험을 지속적으로 개선하는 데 활용됩니다."
   },
+  "metrics": {
+    "message": "메트릭"
+  },
   "mismatchedChainLinkText": {
     "message": "네트워크 세부 정보 검증",
     "description": "Serves as link text for the 'mismatchedChain' key. This text will be embedded inside the translation for that key."
@@ -1974,6 +2012,9 @@
   },
   "mobileSyncWarning": {
     "message": "'확장 프로그램과 동기화' 기능이 일시적으로 비활성화됩니다. MetaMask 모바일에서 확장 지갑을 사용하려면 모바일 앱에서 지갑 설정 옵션으로 돌아가 '비밀 복구 구문 가져오기' 옵션을 선택하세요. 확장 지갑의 비밀 구문을 사용하시면 지갑을 모바일로 가져올 수 있습니다."
+  },
+  "moreComingSoon": {
+    "message": "더 추가 예정..."
   },
   "mustSelectOne": {
     "message": "토큰을 1개 이상 선택해야 합니다."
@@ -2143,6 +2184,9 @@
   "nftAddressError": {
     "message": "이 토큰은 NFT입니다. $1에 추가하세요",
     "description": "$1 is a clickable link with text defined by the 'importNFTPage' key"
+  },
+  "nftDisclaimer": {
+    "message": "면책 조항: MetaMask는 소스 URL에서 미디어 파일을 가져옵니다. 이러한 URL은 때때로 NFT가 민팅된 마켓플레이스에서 변경되기도 합니다."
   },
   "nftTokenIdPlaceholder": {
     "message": "토큰 ID 입력"
@@ -2548,6 +2592,9 @@
   "openInBlockExplorer": {
     "message": "블록 탐색기 열기"
   },
+  "openSea": {
+    "message": "OpenSea (베타)"
+  },
   "optional": {
     "message": "옵션"
   },
@@ -2566,6 +2613,9 @@
   "otherSnaps": {
     "message": "기타 스냅",
     "description": "Used in the 'permission_rpc' message."
+  },
+  "outdatedBrowserNotification": {
+    "message": "현재 사용 중인 브라우저가 업데이트 상태가 아닙니다. 브라우저를 업데이트하지 않으시면 보안 패치와 MetaMask의 새 기능을 이용할 수 없습니다."
   },
   "padlock": {
     "message": "패드락"
@@ -2630,6 +2680,10 @@
   "permissionRevoked": {
     "message": "이 업데이트에서 취소됨"
   },
+  "permission_accessNamedSnap": {
+    "message": "$1 연결",
+    "description": "The description for the `wallet_snap_*` permission. $1 is the human-readable name of the Snap."
+  },
   "permission_accessNetwork": {
     "message": "인터넷에 액세스합니다.",
     "description": "The description of the `endowment:network-access` permission."
@@ -2674,6 +2728,10 @@
     "message": "'$1' 계정과 자산을 통제합니다.",
     "description": "The description for the `snap_getBip44Entropy` permission. $1 is the name of a protocol, e.g. 'Filecoin'."
   },
+  "permission_manageNamedBip32Keys": {
+    "message": "$1 계정 및 자산 통제",
+    "description": "The description for the `snap_getBip32Entropy` permission. $1 is a name for the derivation path, e.g., 'Ethereum accounts'. $2 is the plain derivation path, e.g. 'm/44'/0'/0''."
+  },
   "permission_manageState": {
     "message": "기기의 데이터를 저장하고 관리합니다.",
     "description": "The description for the `snap_manageState` permission"
@@ -2701,6 +2759,10 @@
   "permission_viewBip32PublicKeys": {
     "message": "$1 공개 키($2) 보기.",
     "description": "The description for the `snap_getBip32PublicKey` permission. $1 is a derivation path, e.g. 'm/44'/0'/0''. $2 is the elliptic curve name, e.g. 'secp256k1'."
+  },
+  "permission_viewNamedBip32PublicKeys": {
+    "message": "$1에 관한 공개 키 보기",
+    "description": "The description for the `snap_getBip32PublicKey` permission. $1 is a name for the derivation path, e.g., 'Ethereum accounts'."
   },
   "permissions": {
     "message": "권한"
@@ -2861,6 +2923,9 @@
   "removeNFT": {
     "message": "NFT 제거"
   },
+  "removeNftMessage": {
+    "message": "NFT가 성공적으로 추가되었습니다!"
+  },
   "removeSnap": {
     "message": "스냅 제거"
   },
@@ -2938,11 +3003,11 @@
     "message": "지출 한도 검토"
   },
   "revokeAllTokensTitle": {
-    "message": "내 모든 $1에 액세스할 수 있는 권한을 철회합니까?",
+    "message": "모든 $1에 액세스할 수 있는 권한을 철회할까요?",
     "description": "$1 is the symbol of the token for which the user is revoking approval"
   },
   "revokeApproveForAllDescription": {
-    "message": "권한을 철회하면 다음 $1(이)가 더 이상 $2에 액세스할 수 없습니다.",
+    "message": "권한을 철회하면 제삼자가 통보 없이 $1에 액세스하거나 이를 전송할 수 없습니다.",
     "description": "$1 is either a string or link of a given token symbol or name"
   },
   "revokeSpendingCap": {
@@ -3074,6 +3139,9 @@
   },
   "selectPathHelp": {
     "message": "아래에 기존 Ledger 계정이 표시되지 않는다면 경로를 \"Legacy (MEW / MyCrypto)\"로 변경해 보세요."
+  },
+  "selectProvider": {
+    "message": "공급업체 선택"
   },
   "selectType": {
     "message": "유형 선택"
@@ -3323,6 +3391,9 @@
   },
   "spendLimitTooLarge": {
     "message": "지출 한도가 너무 큼"
+  },
+  "spendingCap": {
+    "message": "지출 한도"
   },
   "spendingCapError": {
     "message": "오류: 숫자만 입력 가능"
@@ -3633,7 +3704,7 @@
     "message": "MetaMask 수수료"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "당사는 매번 최상의 유동성 소스에서 최적의 가격을 찾아드립니다. 이 견적에는 $1%의 수수료가 자동으로 반영됩니다.",
+    "message": "$1%의 수수료는 자동으로 각 견적에 반영됩니다. 이는 MetaMask의 유동성 공급자 정보 집계용 소프트웨어 사용 라이선스 비용입니다.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
@@ -3898,6 +3969,9 @@
   "thingsToKeep": {
     "message": "유의 사항:"
   },
+  "thisServiceIsExperimental": {
+    "message": "이 서비스는 시험 서비스입니다"
+  },
   "time": {
     "message": "시간"
   },
@@ -3911,6 +3985,12 @@
     "message": "수신: $1",
     "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
   },
+  "toggleEthSignDescriptionField": {
+    "message": "이 기능을 켜시면 eth_sign 요청을 통해 dapp이 서명을 요청할 수 있습니다. eth_sign은 임의의 해시에 서명할 수 있는 개방형 서명 방법이므로 피싱의 위험이 있습니다. 서명한 내용을 읽을 수 있고 요청의 출처를 신뢰할 수 있는 경우에만 eth_sign 요청에 서명하십시오."
+  },
+  "toggleEthSignField": {
+    "message": "eth_sign 요청 토글"
+  },
   "toggleTestNetworks": {
     "message": "$1 테스트 네트워크",
     "description": "$1 is a clickable link with text defined by the 'showHide' key. The link will open Settings > Advanced where users can enable the display of test networks in the network dropdown."
@@ -3923,6 +4003,9 @@
   },
   "tokenAlreadyAdded": {
     "message": "토큰이 이미 추가되었습니다."
+  },
+  "tokenAutoDetection": {
+    "message": "토큰 자동 감지"
   },
   "tokenContractAddress": {
     "message": "토큰 계약 주소"
@@ -4061,10 +4144,10 @@
     "message": "$2에서 가스 수수료가 $1(으)로 증가한 거래가 다시 제출되었습니다."
   },
   "transactionSecurityCheck": {
-    "message": "결제 보안 점검"
+    "message": "결제 보안 점검 활성화"
   },
   "transactionSecurityCheckDescription": {
-    "message": "이 기능을 활성화하여 타사(OpenSea)가 사용자의 모든 결제 내역과 서명 요청을 검토하고 허위 요청이 발생할 경우 경고를 발송하도록 하세요."
+    "message": "서명하기 전에 해당 트랜잭션과 서명 요청 관련 위험을 탐지하고 표시하기 위해 타사 API를 이용합니다. 이러한 서비스를 이용하시면 해당 서비스가 아직 서명하지 않은 트랜젝션, 서명 요청, 계정 주소 및 기본 언어에 액세스할 수 있습니다."
   },
   "transactionSubmitted": {
     "message": "$2에서 가스 수수료가 $1인 거래가 제출되었습니다."
@@ -4209,6 +4292,9 @@
   },
   "useNftDetectionDescriptionLine4": {
     "message": "누구든지 회원님의 계정으로 NFT를 에어드롭할 수 있습니다. 여기에는 지갑에 자동으로 표시될 수도 있는 공격적인 콘텐츠도 포함될 수 있습니다."
+  },
+  "useNftDetectionDescriptionLine5": {
+    "message": "해당 서비스로부터 데이터를 가져오기를 원치 않으시면 이 기능을 끄세요."
   },
   "usePhishingDetection": {
     "message": "피싱 감지 사용"

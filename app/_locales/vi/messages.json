@@ -370,6 +370,10 @@
   "approveButtonText": {
     "message": "Phê duyệt"
   },
+  "approveSpendingCap": {
+    "message": "Duyệt hạn mức chi tiêu $1",
+    "description": "The token symbol that is being approved"
+  },
   "approveTokenDescription": {
     "message": "Điều này cho phép bên thứ ba được quyền truy cập và chuyển các NFT sau đây mà không cần thông báo thêm cho đến khi bạn thu hồi quyền truy cập của họ."
   },
@@ -421,7 +425,7 @@
     "message": "Tự động phát hiện token"
   },
   "autoDetectTokensDescription": {
-    "message": "Chúng tôi sử dụng các API của bên thứ ba để phát hiện và hiển thị các token mới được gửi đến ví của bạn. Hãy tắt nếu bạn không muốn ứng dụng lấy dữ liệu từ các dịch vụ đó. $1",
+    "message": "Chúng tôi sử dụng API của bên thứ ba để phát hiện và hiển thị các token mới được gửi đến ví của bạn. Hãy tắt nếu bạn không muốn ứng dụng tự động lấy dữ liệu từ các dịch vụ đó. $1",
     "description": "$1 is a link to a support article"
   },
   "autoLockTimeLimit": {
@@ -632,6 +636,18 @@
   "chromeRequiredForHardwareWallets": {
     "message": "Bạn cần sử dụng MetaMask trên Google Chrome để kết nối với Ví cứng của bạn."
   },
+  "clear": {
+    "message": "Xóa"
+  },
+  "clearActivity": {
+    "message": "Xóa dữ liệu hoạt động và số chỉ dùng một lần"
+  },
+  "clearActivityButton": {
+    "message": "Xóa dữ liệu thẻ hoạt động"
+  },
+  "clearActivityDescription": {
+    "message": "Thao tác này sẽ đặt lại số chỉ dùng một lần của tài khoản và xóa dữ liệu khỏi thẻ hoạt động trong ví của bạn. Chỉ có tài khoản và mạng hiện tại bị ảnh hưởng. Số dư và các giao dịch đến của bạn sẽ không thay đổi."
+  },
   "clickToConnectLedgerViaWebHID": {
     "message": "Nhấn vào đây để kết nối với thiết bị Ledger của bạn qua WebHID",
     "description": "Text that can be clicked to open a browser popup for connecting the ledger device via webhid"
@@ -641,6 +657,9 @@
   },
   "close": {
     "message": "Đóng"
+  },
+  "coingecko": {
+    "message": "CoinGecko"
   },
   "confirm": {
     "message": "Xác nhận"
@@ -838,8 +857,18 @@
   "createPassword": {
     "message": "Tạo mật khẩu"
   },
+  "cryptoCompare": {
+    "message": "CryptoCompare"
+  },
   "currencyConversion": {
     "message": "Quy đổi tiền"
+  },
+  "currencyRateCheckToggle": {
+    "message": "Hiển thị trình kiểm tra giá token và số dư"
+  },
+  "currencyRateCheckToggleDescription": {
+    "message": "Chúng tôi sử dụng API của $1 và $2 để hiện thị giá token và số dư của bạn. $3",
+    "description": "$1 represents Coingecko, $2 represents CryptoCompare and $3 represents Privacy Policy"
   },
   "currencySymbol": {
     "message": "Ký hiệu tiền tệ"
@@ -1735,6 +1764,12 @@
   "lastConnected": {
     "message": "Đã kết nối lần cuối"
   },
+  "lastPriceSold": {
+    "message": "Giá bán gần nhất"
+  },
+  "lastSold": {
+    "message": "Đã bán gần nhất"
+  },
   "learnCancelSpeeedup": {
     "message": "Tìm hiểu cách $1",
     "description": "$1 is link to cancel or speed up transactions"
@@ -1943,6 +1978,9 @@
   "metametricsOptInDescription": {
     "message": "MetaMask muốn thu thập dữ liệu sử dụng để hiểu rõ hơn về cách người dùng tương tác với tiện ích. Chúng tôi sẽ dùng dữ liệu này để liên tục cải thiện độ hữu ích và trải nghiệm người dùng trên sản phẩm của mình và hệ sinh thái Ethereum."
   },
+  "metrics": {
+    "message": "Chỉ số"
+  },
   "mismatchedChainLinkText": {
     "message": "xác minh thông tin về mạng",
     "description": "Serves as link text for the 'mismatchedChain' key. This text will be embedded inside the translation for that key."
@@ -1974,6 +2012,9 @@
   },
   "mobileSyncWarning": {
     "message": "Tính năng 'Đồng bộ với tiện ích' tạm thời bị tắt. Nếu bạn muốn sử dụng ví tiện ích trên thiết bị di động MetaMask, thì trên ứng dụng di động: hãy quay lại các tùy chọn thiết lập ví và chọn phương án 'Nhập bằng Cụm Mật Khẩu Khôi Phục Bí Mật'. Sử dụng cụm mật khẩu bí mật của ví tiện ích để nhập ví của bạn vào thiết bị di động."
+  },
+  "moreComingSoon": {
+    "message": "Sắp có thêm..."
   },
   "mustSelectOne": {
     "message": "Phải chọn ít nhất 1 token."
@@ -2143,6 +2184,9 @@
   "nftAddressError": {
     "message": "Token này là một NFT. Thêm vào $1",
     "description": "$1 is a clickable link with text defined by the 'importNFTPage' key"
+  },
+  "nftDisclaimer": {
+    "message": "Tuyên bố miễn trừ trách nhiệm: MetaMask lấy tập tin phương tiện từ URL nguồn. URL này đôi khi bị thay đổi bởi thị trường mà NFT được đào."
   },
   "nftTokenIdPlaceholder": {
     "message": "Nhập mã token"
@@ -2548,6 +2592,9 @@
   "openInBlockExplorer": {
     "message": "Mở trên trình khám phá khối"
   },
+  "openSea": {
+    "message": "OpenSea (Beta)"
+  },
   "optional": {
     "message": "Không bắt buộc"
   },
@@ -2566,6 +2613,9 @@
   "otherSnaps": {
     "message": "snap khác",
     "description": "Used in the 'permission_rpc' message."
+  },
+  "outdatedBrowserNotification": {
+    "message": "Trình duyệt của bạn đã cũ. Nếu không cập nhật trình duyệt, bạn sẽ không thể nhận các bản vá bảo mật và tính năng mới từ MetaMask."
   },
   "padlock": {
     "message": "Ổ khóa"
@@ -2630,6 +2680,10 @@
   "permissionRevoked": {
     "message": "Đã thu hồi trong bản cập nhật này"
   },
+  "permission_accessNamedSnap": {
+    "message": "Kết nối với $1.",
+    "description": "The description for the `wallet_snap_*` permission. $1 is the human-readable name of the Snap."
+  },
   "permission_accessNetwork": {
     "message": "Truy cập Internet.",
     "description": "The description of the `endowment:network-access` permission."
@@ -2674,6 +2728,10 @@
     "message": "Kiểm soát các tài khoản và tài sản \"$1\" của bạn.",
     "description": "The description for the `snap_getBip44Entropy` permission. $1 is the name of a protocol, e.g. 'Filecoin'."
   },
+  "permission_manageNamedBip32Keys": {
+    "message": "Kiểm soát các tài khoản và tài sản $1 của bạn.",
+    "description": "The description for the `snap_getBip32Entropy` permission. $1 is a name for the derivation path, e.g., 'Ethereum accounts'. $2 is the plain derivation path, e.g. 'm/44'/0'/0''."
+  },
   "permission_manageState": {
     "message": "Lưu trữ và quản lý dữ liệu trong thiết bị.",
     "description": "The description for the `snap_manageState` permission"
@@ -2701,6 +2759,10 @@
   "permission_viewBip32PublicKeys": {
     "message": "Xem khóa công khai của bạn cho $1 ($2).",
     "description": "The description for the `snap_getBip32PublicKey` permission. $1 is a derivation path, e.g. 'm/44'/0'/0''. $2 is the elliptic curve name, e.g. 'secp256k1'."
+  },
+  "permission_viewNamedBip32PublicKeys": {
+    "message": "Xem khóa công khai của bạn cho $1.",
+    "description": "The description for the `snap_getBip32PublicKey` permission. $1 is a name for the derivation path, e.g., 'Ethereum accounts'."
   },
   "permissions": {
     "message": "Quyền"
@@ -2861,6 +2923,9 @@
   "removeNFT": {
     "message": "Xóa NFT"
   },
+  "removeNftMessage": {
+    "message": "NFT đã được xóa thành công!"
+  },
   "removeSnap": {
     "message": "Xóa Snap"
   },
@@ -2938,11 +3003,11 @@
     "message": "Xem lại hạn mức chi tiêu của bạn"
   },
   "revokeAllTokensTitle": {
-    "message": "Thu hồi quyền truy cập vào tất cả $1 của bạn?",
+    "message": "Thu hồi quyền truy cập và chuyển tất cả $1 của bạn?",
     "description": "$1 is the symbol of the token for which the user is revoking approval"
   },
   "revokeApproveForAllDescription": {
-    "message": "Bằng cách thu hồi quyền truy cập, $1 sau đây sẽ không thể truy cập vào $2 của bạn nữa",
+    "message": "Hành động này sẽ thu hồi quyền cho phép bên thứ ba truy cập và chuyển tất cả $1 của bạn mà không cần thông báo thêm.",
     "description": "$1 is either a string or link of a given token symbol or name"
   },
   "revokeSpendingCap": {
@@ -3074,6 +3139,9 @@
   },
   "selectPathHelp": {
     "message": "Nếu bạn không thấy các tài khoản như mong đợi, hãy chuyển sang đường dẫn HD."
+  },
+  "selectProvider": {
+    "message": "Chọn nhà cung cấp:"
   },
   "selectType": {
     "message": "Chọn loại"
@@ -3323,6 +3391,9 @@
   },
   "spendLimitTooLarge": {
     "message": "Giới hạn chi tiêu quá lớn"
+  },
+  "spendingCap": {
+    "message": "Hạn mức chi tiêu"
   },
   "spendingCapError": {
     "message": "Lỗi: Chỉ nhập số"
@@ -3633,7 +3704,7 @@
     "message": "Phí của MetaMask"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "Chúng tôi luôn tìm giá tốt nhất từ các nguồn thanh khoản hàng đầu. Phí $1% được tự động tính vào báo giá này.",
+    "message": "Khoản phí $1% sẽ tự động được tính vào báo giá này. Bạn trả tiền để đổi lấy giấy phép sử dụng phần mềm tổng hợp thông tin từ nhà cung cấp thanh khoản của MetaMask.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
@@ -3898,6 +3969,9 @@
   "thingsToKeep": {
     "message": "Những điều cần lưu ý:"
   },
+  "thisServiceIsExperimental": {
+    "message": "Đây là dịch vụ thử nghiệm"
+  },
   "time": {
     "message": "Thời gian"
   },
@@ -3911,6 +3985,12 @@
     "message": "Đến: $1",
     "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
   },
+  "toggleEthSignDescriptionField": {
+    "message": "Bật tính năng này để cho phép các dapp yêu cầu chữ ký của bạn bằng các yêu cầu eth_sign. eth_sign là một phương thức ký mở rộng cho phép bạn ký một hàm băm tùy ý, điều này khiến nó trở thành một rủi ro lừa đảo nguy hiểm. Chỉ ký các yêu cầu eth_sign nếu bạn có thể đọc được những gì bạn đang ký và tin tưởng vào nguồn gốc của yêu cầu."
+  },
+  "toggleEthSignField": {
+    "message": "Bật/tắt yêu cầu eth_sign"
+  },
   "toggleTestNetworks": {
     "message": "$1 mạng thử nghiệm",
     "description": "$1 is a clickable link with text defined by the 'showHide' key. The link will open Settings > Advanced where users can enable the display of test networks in the network dropdown."
@@ -3923,6 +4003,9 @@
   },
   "tokenAlreadyAdded": {
     "message": "Đã thêm token."
+  },
+  "tokenAutoDetection": {
+    "message": "Tự động phát hiện token"
   },
   "tokenContractAddress": {
     "message": "Địa chỉ hợp đồng token"
@@ -4061,10 +4144,10 @@
     "message": "Đã gửi lại giao dịch với mức phí gas ước tính tăng lên $1 lúc $2"
   },
   "transactionSecurityCheck": {
-    "message": "Kiểm tra bảo mật giao dịch"
+    "message": "Kích hoạt nhà cung cấp bảo mật giao dịch"
   },
   "transactionSecurityCheckDescription": {
-    "message": "Bật tính năng này để cho phép bên thứ ba (OpenSea) xem xét tất cả các giao dịch và yêu cầu chữ ký của bạn, đồng thời cảnh báo bạn về các yêu cầu độc hại đã biết."
+    "message": "Chúng tôi sử dụng API của bên thứ ba để phát hiện và hiển thị những rủi ro liên quan đến các yêu cầu chữ ký và giao dịch chưa ký trước khi bạn ký. Những dịch vụ này sẽ có quyền truy cập vào các yêu cầu chữ ký và giao dịch chưa ký, địa chỉ tài khoản và ngôn ngữ yêu thích của bạn."
   },
   "transactionSubmitted": {
     "message": "Đã gửi giao dịch với mức phí gas ước tính $1 lúc $2."
@@ -4209,6 +4292,9 @@
   },
   "useNftDetectionDescriptionLine4": {
     "message": "Bất kỳ ai cũng có thể gửi NFT vào tài khoản của bạn. Điều này có thể khiến nội dung xúc phạm tự động hiển thị trong ví của bạn."
+  },
+  "useNftDetectionDescriptionLine5": {
+    "message": "Tắt tính năng này nếu bạn không muốn ứng dụng lấy dữ liệu từ các dịch vụ đó."
   },
   "usePhishingDetection": {
     "message": "Sử dụng tính năng phát hiện lừa đảo"

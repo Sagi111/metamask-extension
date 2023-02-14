@@ -370,6 +370,10 @@
   "approveButtonText": {
     "message": "अनुमोदित करें"
   },
+  "approveSpendingCap": {
+    "message": "खर्च की सीमा $1 को स्वीकृत करें",
+    "description": "The token symbol that is being approved"
+  },
   "approveTokenDescription": {
     "message": "यह किसी तीसरे पक्ष को बिना किसी नोटिस के निम्नलिखित NFTs को ऐक्सेस करने और स्थानांतरित करने की अनुमति देता है जब तक कि आप इसकी ऐक्सेस को रद्द नहीं कर देते।"
   },
@@ -421,7 +425,7 @@
     "message": "टोकन ऑटो-डिटेक्ट करें"
   },
   "autoDetectTokensDescription": {
-    "message": "हम आपके वॉलेट में भेजे गए नए टोकन का पता लगाने और प्रदर्शित करने के लिए थर्ड पार्टी ऐप्स का उपयोग करते हैं। अगर आप चाहते हैं कि ऐप उन सेवाओं से डेटा न ले, तो उसे बंद कर दें। $1",
+    "message": "हम आपके वॉलेट में भेजे गए नए टोकन का पता लगाने और प्रदर्शित करने के लिए तृतीय-पक्ष APIs का उपयोग करते हैं। अगर आप नहीं चाहते हैं कि ऐप उन सेवाओं से डेटा अपने आप खींचे तो इसे बंद कर दें। $1",
     "description": "$1 is a link to a support article"
   },
   "autoLockTimeLimit": {
@@ -632,6 +636,18 @@
   "chromeRequiredForHardwareWallets": {
     "message": "अपने हार्डवेयर वॉलेट से कनेक्ट करने के लिए आपको Google Chrome पर MetaMask का उपयोग करने की आवश्यकता है।"
   },
+  "clear": {
+    "message": "साफ़ करें"
+  },
+  "clearActivity": {
+    "message": "गतिविधि और अस्थायी डेटा साफ़ करें"
+  },
+  "clearActivityButton": {
+    "message": "गतिविधि टैब डेटा साफ़ करें"
+  },
+  "clearActivityDescription": {
+    "message": "यह खाते की अस्थायीता को रीसेट करता है और आपके वॉलेट में गतिविधि टैब से डेटा मिटा देता है। केवल मौजूदा खाता और नेटवर्क प्रभावित होंगे। आपकी शेष राशि और आने वाले लेन-देन नहीं बदलेंगे।"
+  },
   "clickToConnectLedgerViaWebHID": {
     "message": "अपने लेजर को WebHID के जरिये कनेक्ट करने के लिए यहां क्लिक करें",
     "description": "Text that can be clicked to open a browser popup for connecting the ledger device via webhid"
@@ -641,6 +657,9 @@
   },
   "close": {
     "message": "बंद करें"
+  },
+  "coingecko": {
+    "message": "कॉइनगेको"
   },
   "confirm": {
     "message": "पुष्टि करें"
@@ -838,8 +857,18 @@
   "createPassword": {
     "message": "पासवर्ड बनाएं"
   },
+  "cryptoCompare": {
+    "message": "क्रिप्टोतुलना"
+  },
   "currencyConversion": {
     "message": "मुद्रा रूपांतरण"
+  },
+  "currencyRateCheckToggle": {
+    "message": "शेष राशि और टोकन मूल्य चेकर दिखाएं"
+  },
+  "currencyRateCheckToggleDescription": {
+    "message": "हम आपकी शेष राशि और टोकन मूल्य प्रदर्शित करने के लिए $1 और $2 API का उपयोग करते हैं। $3",
+    "description": "$1 represents Coingecko, $2 represents CryptoCompare and $3 represents Privacy Policy"
   },
   "currencySymbol": {
     "message": "मुद्रा चिह्न"
@@ -1735,6 +1764,12 @@
   "lastConnected": {
     "message": "अंतिम बार जुड़ा"
   },
+  "lastPriceSold": {
+    "message": "पिछली बार की बिक्री दर"
+  },
+  "lastSold": {
+    "message": "पिछली बार बेचा गया"
+  },
   "learnCancelSpeeedup": {
     "message": "$1 करने का तरीका जानें",
     "description": "$1 is link to cancel or speed up transactions"
@@ -1943,6 +1978,9 @@
   "metametricsOptInDescription": {
     "message": "MetaMask इस बात की बेहतर समझ प्राप्त करने के लिए डेटा एकत्र करना चाहता है कि हमारे उपयोगकर्ता विस्तार के साथ कैसे सहभागिता करते हैं। इस डेटा का उपयोग हमारे उत्पाद और Ethereum पारिस्थितिकी तंत्र की उपयोगिता और उपयोगकर्ता अनुभव को लगातार सुधारने के लिए किया जाएगा।"
   },
+  "metrics": {
+    "message": "मेट्रिक्स"
+  },
   "mismatchedChainLinkText": {
     "message": "नेटवर्क विवरण सत्यापित करें",
     "description": "Serves as link text for the 'mismatchedChain' key. This text will be embedded inside the translation for that key."
@@ -1974,6 +2012,9 @@
   },
   "mobileSyncWarning": {
     "message": "'एक्सटेंशन के साथ सिंक' फीचर अस्थायी रूप से अक्षम है। यदि आप MetaMask मोबाइल पर अपने एक्सटेंशन वॉलेट का उपयोग करना चाहते हैं, तो अपने मोबाइल ऐप पर: वॉलेट सेटअप ऑप्शन पर वापस जाएं और 'सीक्रेट रिकवरी फ्रेज के साथ इम्पोर्ट करें' विकल्प चुनें। फिर अपने वॉलेट को मोबाइल में इम्पोर्ट करने के लिए अपने एक्सटेंशन वॉलेट के सीक्रेट फ्रेज का उपयोग करें।"
+  },
+  "moreComingSoon": {
+    "message": "और अधिक जल्द ही आ रहा..."
   },
   "mustSelectOne": {
     "message": "कम से कम 1 टोकन का चयन करना होगा।"
@@ -2143,6 +2184,9 @@
   "nftAddressError": {
     "message": "ये टोकन एक एनएफटी है। $1 पर जोड़ें",
     "description": "$1 is a clickable link with text defined by the 'importNFTPage' key"
+  },
+  "nftDisclaimer": {
+    "message": "अस्वीकरण: MetaMask मीडिया फ़ाइल को स्रोत url से खींचता है। यह url कभी-कभी मार्केटप्लेस द्वारा बदल दिया जाता है जिस पर NFT का खनन किया गया था।"
   },
   "nftTokenIdPlaceholder": {
     "message": "संग्रहणीय ID दर्ज करें"
@@ -2548,6 +2592,9 @@
   "openInBlockExplorer": {
     "message": "ब्लॉक एक्सप्लोरर में खोलें"
   },
+  "openSea": {
+    "message": "OpenSea (बीटा)"
+  },
   "optional": {
     "message": "वैकल्पिक"
   },
@@ -2566,6 +2613,9 @@
   "otherSnaps": {
     "message": "अन्य स्नैप",
     "description": "Used in the 'permission_rpc' message."
+  },
+  "outdatedBrowserNotification": {
+    "message": "आपका ब्राउज़र पुराना हो चुका है। यदि आप अपने ब्राउज़र को अपडेट नहीं करते हैं, तो आप MetaMask से सुरक्षा पैच और नई फीचर्स प्राप्त नहीं कर पाएंगे।"
   },
   "padlock": {
     "message": "पैडलॉक"
@@ -2630,6 +2680,10 @@
   "permissionRevoked": {
     "message": "इस अपडेट में रद्द किया गया"
   },
+  "permission_accessNamedSnap": {
+    "message": "$1 से कनेक्ट करें।",
+    "description": "The description for the `wallet_snap_*` permission. $1 is the human-readable name of the Snap."
+  },
   "permission_accessNetwork": {
     "message": "इंटरनेट एक्सेस करें।",
     "description": "The description of the `endowment:network-access` permission."
@@ -2674,6 +2728,10 @@
     "message": "आपके \"$1\" अकाउंट्स और एसेट्स नियंत्रित करें।",
     "description": "The description for the `snap_getBip44Entropy` permission. $1 is the name of a protocol, e.g. 'Filecoin'."
   },
+  "permission_manageNamedBip32Keys": {
+    "message": "आपके $1 खातों और संपत्तियों को नियंत्रित करें।",
+    "description": "The description for the `snap_getBip32Entropy` permission. $1 is a name for the derivation path, e.g., 'Ethereum accounts'. $2 is the plain derivation path, e.g. 'm/44'/0'/0''."
+  },
   "permission_manageState": {
     "message": "उसके डेटा को अपने डिवाइस पर स्टोर करें और प्रबंधित करें।",
     "description": "The description for the `snap_manageState` permission"
@@ -2701,6 +2759,10 @@
   "permission_viewBip32PublicKeys": {
     "message": "$1 ($2) के लिए अपनी पब्लिक की को देखें।",
     "description": "The description for the `snap_getBip32PublicKey` permission. $1 is a derivation path, e.g. 'm/44'/0'/0''. $2 is the elliptic curve name, e.g. 'secp256k1'."
+  },
+  "permission_viewNamedBip32PublicKeys": {
+    "message": "$1 के लिए अपनी पब्लिक की को देखें",
+    "description": "The description for the `snap_getBip32PublicKey` permission. $1 is a name for the derivation path, e.g., 'Ethereum accounts'."
   },
   "permissions": {
     "message": "अनुमतियाँ"
@@ -2861,6 +2923,9 @@
   "removeNFT": {
     "message": "NFT हटाएं"
   },
+  "removeNftMessage": {
+    "message": "NET सफलतापूर्वक हटा दिया गया!"
+  },
   "removeSnap": {
     "message": "स्नैप हटाएं"
   },
@@ -2938,11 +3003,11 @@
     "message": "अपनी खर्च के सीमा की समीक्षा करें"
   },
   "revokeAllTokensTitle": {
-    "message": "अपने सभी $1 को एक्सेस करने की अनुमति निरस्त करें?",
+    "message": "आपके सभी $1 को एक्सेस और स्थानांतरित करने की अनुमति निरस्त करें?",
     "description": "$1 is the symbol of the token for which the user is revoking approval"
   },
   "revokeApproveForAllDescription": {
-    "message": "अनुमति निरस्त करने से, निम्नलिखित $1 अब आपके $2 को एक्सेस नहीं कर सकेगा",
+    "message": "यह बिना किसी नोटिस के आपके सभी $1 तक पहुंचने और स्थानांतरित करने के लिए किसी तीसरे पक्ष की अनुमति को निरस्त करता है।",
     "description": "$1 is either a string or link of a given token symbol or name"
   },
   "revokeSpendingCap": {
@@ -3074,6 +3139,9 @@
   },
   "selectPathHelp": {
     "message": "यदि आपको अपेक्षित खाते दिखाई नहीं देते हैं, तो HD पथ बदलने का प्रयास करें।"
+  },
+  "selectProvider": {
+    "message": "प्रदाताओं का चयन करें:"
   },
   "selectType": {
     "message": "प्रकार का चयन करें"
@@ -3323,6 +3391,9 @@
   },
   "spendLimitTooLarge": {
     "message": "खर्च सीमा बहुत अधिक है"
+  },
+  "spendingCap": {
+    "message": "खर्च की सीमा"
   },
   "spendingCapError": {
     "message": "त्रुटि: केवल संख्या दर्ज करें"
@@ -3633,7 +3704,7 @@
     "message": "MetaMask शुल्क"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "हम हर बार शीर्ष चलनिधि स्रोतों से सबसे अच्छे मूल्य ढूंढते हैं। इस उद्धरण में $1% का शुल्क स्वतः ही शामिल हो जाता है।",
+    "message": "$1% का शुल्क स्वचालित रूप से इस उद्धरण में समाविष्ट हो जाता है। आप इसे MetaMask's के तरलता प्रदाता सूचना एकत्रीकरण सॉफ़्टवेयर का उपयोग करने के लिए लाइसेंस के बदले में भुगतान करते हैं।",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
@@ -3898,6 +3969,9 @@
   "thingsToKeep": {
     "message": "ध्यान रखने योग्य बातें"
   },
+  "thisServiceIsExperimental": {
+    "message": "यह सेवा प्रयोगात्मक है"
+  },
   "time": {
     "message": "समय"
   },
@@ -3911,6 +3985,12 @@
     "message": "प्रति: $1",
     "description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
   },
+  "toggleEthSignDescriptionField": {
+    "message": "Eth_sign अनुरोधों का उपयोग करके dapps को आपके हस्ताक्षर का अनुरोध करने देने के लिए इसे चालू करें। eth_sign एक ओपन-एंडेड साइनिंग विधि है जो आपको मनमाने ढंग से हैश पर हस्ताक्षर करने देती है, जिससे यह एक खतरनाक फ़िशिंग जोखिम बन जाता है। eth_sign अनुरोधों पर केवल तभी हस्ताक्षर करें यदि आप पढ़ सकते हैं कि आप क्या हस्ताक्षर कर रहे हैं और अनुरोध के मूल पर भरोसा करते हैं।"
+  },
+  "toggleEthSignField": {
+    "message": "Eth_sign अनुरोधों को टॉगल करें"
+  },
   "toggleTestNetworks": {
     "message": "$1 परीक्षण नेटवर्क",
     "description": "$1 is a clickable link with text defined by the 'showHide' key. The link will open Settings > Advanced where users can enable the display of test networks in the network dropdown."
@@ -3923,6 +4003,9 @@
   },
   "tokenAlreadyAdded": {
     "message": "टोकन पहले ही जोड़ा जा चुका है।"
+  },
+  "tokenAutoDetection": {
+    "message": "टोकन ऑटो-डिटेक्शन"
   },
   "tokenContractAddress": {
     "message": "टोकन अनुबंध पता"
@@ -4061,10 +4144,10 @@
     "message": "$2 गैस शुल्क में $1 वृद्धि के साथ लेनदेन फिर से सबमिट किया गया"
   },
   "transactionSecurityCheck": {
-    "message": "लेन-देन की सुरक्षा जांच"
+    "message": "लेन-देन सुरक्षा प्रदाताओं को सक्षम करें"
   },
   "transactionSecurityCheckDescription": {
-    "message": "अपने सभी लेन-देन और हस्ताक्षर अनुरोधों की समीक्षा करने और ज्ञात दुर्भावनापूर्ण अनुरोधों के बारे में आपको चेतावनी देने के लिए तीसरे पक्ष (OpenSea) को सक्षम करने के लिए इसे चालू करें।"
+    "message": "आपके हस्ताक्षर करने से पहले अहस्ताक्षरित लेन-देन और हस्ताक्षर अनुरोधों में शामिल जोखिमों का पता लगाने और प्रदर्शित करने के लिए हम तृतीय-पक्ष एपीआई का उपयोग करते हैं। इन सेवाओं के पास आपके अहस्ताक्षरित लेनदेन और हस्ताक्षर अनुरोध, आपके खाते का पता और आपकी पसंदीदा भाषा तक पहुंच होगी।"
   },
   "transactionSubmitted": {
     "message": "$2 पर $1 के गैस शुल्क के साथ लेनदेन सबमिट किया गया।"
@@ -4209,6 +4292,9 @@
   },
   "useNftDetectionDescriptionLine4": {
     "message": "कोई भी आपके खाते में NFT को एयरड्रॉप कर सकता है। इसमें आपत्तिजनक सामग्री शामिल हो सकती है जो आपके वॉलेट में स्वचालित रूप से प्रदर्शित हो सकती है।"
+  },
+  "useNftDetectionDescriptionLine5": {
+    "message": "यदि आप नहीं चाहते कि ऐप उन सेवाओं से डेटा खींचे तो इस सुविधा को बंद कर दें।"
   },
   "usePhishingDetection": {
     "message": "फिशिंग डिटेक्शन का उपयोग करें"
