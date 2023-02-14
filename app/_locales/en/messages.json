@@ -1038,6 +1038,9 @@
   "desktopEnableButton": {
     "message": "Enable Desktop App"
   },
+  "desktopEnableButtonDescription": {
+    "message": "Click to run all background processes in the desktop app."
+  },
   "desktopErrorNavigateSettingsCTA": {
     "message": "Return to Settings Page"
   },
