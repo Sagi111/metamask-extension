@@ -28,6 +28,9 @@ workflows:
             branches:
               only:
                 - /^Version-v(\d+)[.](\d+)[.](\d+)/
+      - trigger-beta-build:
+          requires:
+            - prep-deps
       - prep-deps
       - test-deps-audit:
           requires:
@@ -228,6 +231,16 @@ workflows:
             - prep-build-ts-migration-dashboard
 
 jobs:
+  trigger-beta-build:
+    executor: node-browsers
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - run:
+          name: Build beta prod
+          command: .circleci/scripts/trigger-beta-build.sh
+
   create_release_pull_request:
     executor: node-browsers
     steps:
@@ -814,7 +827,7 @@ jobs:
           destination: test-artifacts
       - store_test_results:
           path: test/test-results/e2e.xml
-          
+
   test-e2e-firefox-snaps:
     executor: node-browsers
     parallelism: 2
