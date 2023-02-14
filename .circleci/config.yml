@@ -232,14 +232,15 @@ workflows:
 
 jobs:
   trigger-beta-build:
-    executor: node-browsers
+    executor: node-browsers-medium-plus
     steps:
       - checkout
       - attach_workspace:
           at: .
       - run:
           name: Build beta prod
-          command: .circleci/scripts/trigger-beta-build.sh
+          command: |
+            .circleci/scripts/trigger-beta-build.sh
 
   create_release_pull_request:
     executor: node-browsers
