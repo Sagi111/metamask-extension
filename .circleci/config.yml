@@ -135,7 +135,7 @@ workflows:
             - prep-build
       - validate-source-maps-beta:
           requires:
-            - prep-build-beta
+            - trigger-beta-build
       - validate-source-maps-desktop:
           requires:
             - prep-build-desktop
@@ -149,7 +149,7 @@ workflows:
       - test-mozilla-lint-beta:
           requires:
             - prep-deps
-            - prep-build-beta
+            - trigger-beta-build
       - test-mozilla-lint-desktop:
           requires:
             - prep-deps
@@ -196,7 +196,7 @@ workflows:
           requires:
             - prep-deps
             - prep-build
-            - prep-build-beta
+            - trigger-beta-build
             - prep-build-desktop
             - prep-build-flask
             - prep-build-storybook
@@ -241,6 +241,20 @@ jobs:
           name: Build beta prod
           command: |
             .circleci/scripts/trigger-beta-build.sh
+      - run:
+          name: build:debug
+          command: find dist/ -type f -exec md5sum {} \; | sort -k 2
+      - run:
+          name: Move beta build to 'dist-beta' to avoid conflict with production build
+          command: mv ./dist ./dist-beta
+      - run:
+          name: Move beta zips to 'builds-beta' to avoid conflict with production build
+          command: mv ./builds ./builds-beta
+      - persist_to_workspace:
+          root: .
+          paths:
+            - dist-beta
+            - builds-beta
 
   create_release_pull_request:
     executor: node-browsers
