@@ -6,7 +6,7 @@ This document details how routing to confirmation pages is currently done and ho
 
 The current flow of routing to confirmation pages have issues.
 
-![Confirmation Pages Routing - Current](https://raw.githubusercontent.com/MetaMask/metamask-extension/develop/docs/refactoring/confirmation-pages-routing/current.png)
+![Confirmation Pages Routing - Current](https://raw.githubusercontent.com/MetaMask/metamask-extension/conf_structure_doc/docs/refactoring/confirmation-pages-routing/current.png)
 
 - There are 2 ways in which confirmation pages can be opened:
   1. User triggers send flow from within Metamask
@@ -24,7 +24,7 @@ The current flow of routing to confirmation pages have issues.
 
 The proposed routing of confirmation pages looks like.
 
-![Confirmation Pages Routing - Proposed](https://raw.githubusercontent.com/MetaMask/metamask-extension/develop/docs/refactoring/confirmation-pages-routing/proposed.png)
+![Confirmation Pages Routing - Proposed](https://raw.githubusercontent.com/MetaMask/metamask-extension/conf_structure_doc/docs/refactoring/confirmation-pages-routing/proposed.png)
 
 - There are 2 ways in which confirmation pages can be opened:
   1. User triggers send flow from within Metamask

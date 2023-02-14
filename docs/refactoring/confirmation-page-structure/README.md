@@ -26,7 +26,7 @@ Other confirmation components are responsible for passing over to `confirm-trans
 
 ## Proposed Implementation
 
-![Confirmation Pages structure](https://raw.githubusercontent.com/MetaMask/metamask-extension/conf_structure_doc/docs/refactoring/confirmation-page-structure/proposed.png)
+![Confirmation Pages structure](https://raw.githubusercontent.com/MetaMask/metamask-extension/develop/docs/refactoring/confirmation-page-structure/proposed.png)
 
 As described we should still have `confirm-page-container` components taking care of layout but we should create more re-usable smaller layout components for different part of confirmation page like gas details, gas selection popover, etc. `confirm-transaction-page` defines a layout which is used by most comfirmation pages, but some pages like new token allowance implementation for ERC20 differ from this layout. We should be able to use more and more of these re-usable components for other confirmation pages layout also.
 
