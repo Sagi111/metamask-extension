@@ -238,9 +238,12 @@ jobs:
       - attach_workspace:
           at: .
       - run:
-          name: Build beta prod
-          command: |
-            .circleci/scripts/trigger-beta-build.sh
+          name: build:prod
+          command: yarn build prod
+#      - run:
+#          name: Build beta prod
+#          command: |
+#            .circleci/scripts/trigger-beta-build.sh
       - run:
           name: build:debug
           command: find dist/ -type f -exec md5sum {} \; | sort -k 2
