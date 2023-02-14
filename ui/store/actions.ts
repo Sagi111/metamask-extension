@@ -2106,10 +2106,10 @@ export function addNft(
 ): ThunkAction<void, MetaMaskReduxState, unknown, AnyAction> {
   return async (dispatch) => {
     if (!address) {
-      throw new Error('MetaMask - Cannot add nft without address');
+      throw new Error('MetaMask - Cannot add NFT without address');
     }
     if (!tokenID) {
-      throw new Error('MetaMask - Cannot add nft without tokenID');
+      throw new Error('MetaMask - Cannot add NFT without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -2133,10 +2133,10 @@ export function addNftVerifyOwnership(
 ): ThunkAction<void, MetaMaskReduxState, unknown, AnyAction> {
   return async (dispatch) => {
     if (!address) {
-      throw new Error('MetaMask - Cannot add nft without address');
+      throw new Error('MetaMask - Cannot add NFT without address');
     }
     if (!tokenID) {
-      throw new Error('MetaMask - Cannot add nft without tokenID');
+      throw new Error('MetaMask - Cannot add NFT without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -2171,10 +2171,10 @@ export function removeAndIgnoreNft(
 ): ThunkAction<void, MetaMaskReduxState, unknown, AnyAction> {
   return async (dispatch) => {
     if (!address) {
-      throw new Error('MetaMask - Cannot ignore nft without address');
+      throw new Error('MetaMask - Cannot ignore NFT without address');
     }
     if (!tokenID) {
-      throw new Error('MetaMask - Cannot ignore nft without tokenID');
+      throw new Error('MetaMask - Cannot ignore NFT without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -2198,10 +2198,10 @@ export function removeNft(
 ): ThunkAction<void, MetaMaskReduxState, unknown, AnyAction> {
   return async (dispatch) => {
     if (!address) {
-      throw new Error('MetaMask - Cannot remove nft without address');
+      throw new Error('MetaMask - Cannot remove NFT without address');
     }
     if (!tokenID) {
-      throw new Error('MetaMask - Cannot remove nft without tokenID');
+      throw new Error('MetaMask - Cannot remove NFT without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
