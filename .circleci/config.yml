@@ -356,7 +356,8 @@ jobs:
           at: .
       - run:
           name: build:prod
-          command: .circleci/scripts/trigger-beta-build.sh
+          command: |
+            .circleci/scripts/trigger-beta-build.sh
       - persist_to_workspace:
           root: .
           paths:
